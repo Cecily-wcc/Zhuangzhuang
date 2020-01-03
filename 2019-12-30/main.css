@@ -1,0 +1,25 @@
+@charset "UTF-8";
+#top{
+    height:40px;
+    width:100%;
+    background-color: red;
+}
+#Logo{
+    height:96px;
+    width:100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: red;
+}
+#Leftcolum{
+    float:left;
+    width:200px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color:red;
+    line-height: 40px;
+}
+#Rightcolum{
+    margin-left:200px;
+    
+}

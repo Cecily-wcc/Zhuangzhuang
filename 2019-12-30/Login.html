@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DeYunShe</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <style>
+        body {background-color:lightyellow;}
+    </style>
+    <script>
+        $(function(){
+            $("#Leftcolum>ul>li").hover(function(){
+                $(this).find("#Leftcolum").css("background-color","#eee");
+                $(this).find(".nav2").css("display","block");
+            },function(){
+                $(this).find("#Leftcolum").css("background-color","#fff");
+                $(this).find(".nav2").css("display","none");
+            });
+        });
+        </script>
+</head>
+<body>
+    <div id="top"></div>
+    <div id="Logo">
+        <img src="E:\HaiAn\2019-12-30\1.png" alt="title" height="96px" width="100%"/>
+    </div>
+    <div id="Leftcolum">
+        <ul id="nav">
+            <li><a>个人风采</a>
+                <ul class="nav2">
+                    <li><a>郭德纲</a></li>
+                    <li><a>于谦</a></li>
+                    <li><a>郭麒麟</a></li>
+                    <li><a>闫鹤翔</a></li>
+                </ul>
+            </li>
+            <li><a>发展历程</a>
+                <ul class="nav2">
+                    <li><a>低谷</a></li>
+                    <li><a>辉煌</a></li>
+                    <li><a>停业整顿</a></li>
+                    <li><a>重新开张</a></li>
+                </ul>
+            </li>
+            <li><a>剧场分社</a>
+                <ul class="nav2">
+                    <li><a>天桥剧场</a></li>
+                    <li><a>三里屯剧场</a></li>
+                    <li><a>南京老门东剧场</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </div>
+    <div id="Rightcolum">
+        
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username"/></td>
+            </tr>
+            
+            <tr>
+                <td>Password</td>
+                <td><input type="text" name="password"/></td>
+            </tr>
+        </table>
+        <button style="background-color: aliceblue;" >Login</button>
+        
+    </div>
+</body>
+</html>
