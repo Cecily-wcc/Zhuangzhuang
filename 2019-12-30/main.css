@@ -17,9 +17,16 @@
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color:red;
-    line-height: 40px;
+    line-height: 35px;
 }
 #Rightcolum{
     margin-left:200px;
-    
+}
+ul{
+    list-style-type: none;
+}
+.limenu{
+    width:80%;
+    background-color: burlywood;
+
 }
